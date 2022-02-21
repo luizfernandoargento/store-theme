@@ -81,7 +81,7 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["logo#desktop"]
+    "children": ["image#logo.desktop"]
   },
   "flex-layout.col#category-menu": {
     "props": {
@@ -89,13 +89,10 @@
     },
     "children": ["vtex.menu@2.x:menu#category-menu"]
   },
-  "logo#desktop": {
+  "image#logo.desktop": {
     "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      // "url": "/assets/logo-avanti.png",
-      "width": "180"
+      "src": "assets/imgs/logo/logo-avanti@2x.png",
+      "maxHeight": "30"
     }
   },
   "header-layout.mobile": {
@@ -107,7 +104,7 @@
   "flex-layout.row#1-mobile": {
     "children": [
       "drawer",
-      "logo#mobile",
+      "image#logo.mobile",
       // "flex-layout.col#spacer",
       // "login",
       "minicart.v2"
@@ -134,13 +131,10 @@
     }
   },
 
-  "logo#mobile": {
+  "image#logo.mobile": {
     "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
-      // "url": "/assets/logo-avanti.png",
-      "width": "70"
+      "src": "assets/imgs/logo/logo-avanti@2x.png",
+      "maxHeight": "70"
     }
   }
 }

@@ -133,8 +133,7 @@
   },
   "flex-layout.row#menu-more": {
     "children": [
-      "flex-layout.col#menu-more-1",
-      "flex-layout.col#menu-more-2"
+      "flex-layout.col#menu-more-1"
     ]
   },
   "flex-layout.col#menu-more-1": {
@@ -142,11 +141,7 @@
       "vtex.menu@2.x:menu#more"
     ]
   },
-  "flex-layout.col#menu-more-2": {
-    "children": [
-      "info-card#home"
-    ]
-  },
+  
   "vtex.menu@2.x:menu#more": {
     "props": {
       "orientation": "vertical"
