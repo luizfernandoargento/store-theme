@@ -7,8 +7,9 @@
   },
   "header-layout.desktop": {
     "children": [
+      "flex-layout.row#top-bar",
       "flex-layout.row#1-desktop",
-      "flex-layout.row#2-desktop",
+      // "flex-layout.row#2-desktop",
       "flex-layout.row#3-desktop",
       "sticky-layout#4-desktop"
     ]
@@ -29,7 +30,7 @@
   },
   "notification.bar#home": {
     "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+      "content": "The best prices!"
     }
   },
   "flex-layout.row#3-desktop": {
@@ -92,7 +93,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      // "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "url": "/assets/logo-avanti.png",
       "width": "180"
     }
   },
@@ -106,8 +108,8 @@
     "children": [
       "drawer",
       "logo#mobile",
-      "flex-layout.col#spacer",
-      "login",
+      // "flex-layout.col#spacer",
+      // "login",
       "minicart.v2"
     ],
     "props": {
@@ -136,7 +138,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      // "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "/assets/logo-avanti.png",
       "width": "70"
     }
   }
