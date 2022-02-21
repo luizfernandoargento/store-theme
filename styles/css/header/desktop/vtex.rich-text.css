@@ -1,0 +1,19 @@
+.image--email__top-bar,
+.image--phone__top-bar,
+.image--login__top-bar,
+.image--wishlist__top-bar {
+  width: 16px;
+}
+
+.paragraph--text__top-bar {
+  margin: 0;
+  font-size: 14px;
+  color: #f1f1f1;
+}
+
+.wrapper--text__top-bar {
+  height: 44px;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}

@@ -4,38 +4,55 @@
       "blockClass": "wrapper__top-bar"
     },
     "children": [
+      "flex-layout.col#left",
+      "flex-layout.col#right"
+    ]
+  },
+  "flex-layout.col#left": {
+    "children": [
       "rich-text#email-text",
-      "rich-text#phone-text",
+      "rich-text#phone-text"
+    ],
+    "props": {
+      "blockClass": ["wrapper__col", "wrapper__col-left"]
+    }
+  },
+
+  "flex-layout.col#right": {
+    "children": [
       "rich-text#login-text",
       "rich-text#wishlist-text"
-    ]
+    ],
+    "props": {
+      "blockClass": ["wrapper__col", "wrapper__col-right"]
+    }
   },
 
   "rich-text#email-text": {
     "props": {
       "blockClass": ["text__top-bar", "email__top-bar"],
-      "text": "![email](assets/imgs/top-bar/email.png) teste@teste.com"
+      "text": "![email](assets/imgs/top-bar/email2.png) teste@teste.com"
     }
   },
   
   "rich-text#phone-text": {
     "props": {
       "blockClass": ["text__top-bar", "phone__top-bar"],
-      "text": "![phone](assets/imgs/top-bar/fone.png) +55 (00) 00000-0000"
+      "text": "![phone](assets/imgs/top-bar/fone2.png) +55 (00) 00000-0000"
     }
   },
 
   "rich-text#login-text": {
     "props": {
       "blockClass": ["text__top-bar", "login__top-bar"],
-      "text": "Login ![login](assets/imgs/top-bar/usuario.png)"
+      "text": "Login ![login](assets/imgs/top-bar/usuario2.png)"
     }
   },
 
   "rich-text#wishlist-text": {
     "props": {
       "blockClass": ["text__top-bar", "wishlist__top-bar"],
-      "text": "Wishlist ![login](assets/imgs/top-bar/coracao.png)"
+      "text": "Wishlist ![login](assets/imgs/top-bar/coracao2.png)"
     }
   }
 }
